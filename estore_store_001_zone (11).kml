@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Geisslers of Agawam</name>
+    <description/>
+    <Style id="icon-1899-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-87CEAC-1200-173-nodesc-normal">
+      <LineStyle>
+        <color>ffacce87</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>adacce87</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-87CEAC-1200-173-nodesc-highlight">
+      <LineStyle>
+        <color>ffacce87</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>adacce87</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-87CEAC-1200-173-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-87CEAC-1200-173-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-87CEAC-1200-173-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FF5252-301-77-nodesc-normal">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>0.301</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d5252ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FF5252-301-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>0.4515</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d5252ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FF5252-301-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF5252-301-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF5252-301-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Delivery Area</name>
+      <Placemark>
+        <name><![CDATA[Geissler's of Agawam]]></name>
+        <description><![CDATA[Delivery Area<br>830 Suffield St, Agawam, MA 01001 <br>+1 413-821-8904<br>Email: agawam@geisslers.com<br>Hours: Mon-Sat: 8am-9pm | Sun: 8am-7pm<br>Sunday, December 31, 2017 8am-7pm<br>Monday, January 1, 2018 8am-6pm]]></description>
+        <styleUrl>#icon-1899-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -72.633584,42.060969,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Delivery Area</name>
+        <styleUrl>#poly-87CEAC-1200-173-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -72.657566,42.0628031,0
+                -72.6547336,42.0619747,0
+                -72.6520729,42.0621021,0
+                -72.6467514,42.0591071,0
+                -72.6484039,42.0581511,0
+                -72.6509145,42.0554108,0
+                -72.6549053,42.0484004,0
+                -72.6513862,42.0457871,0
+                -72.6498413,42.0432375,0
+                -72.6472664,42.0429188,0
+                -72.6279546,42.0432375,0
+                -72.6225472,42.0424726,0
+                -72.6169682,42.0422814,0
+                -72.6160241,42.0436837,0
+                -72.6162816,42.0487828,0
+                -72.6158524,42.0538177,0
+                -72.6168824,42.0590434,0
+                -72.6173974,42.0601267,0
+                -72.6157666,42.0680918,0
+                -72.614565,42.0760558,0
+                -72.6224614,42.0755461,0
+                -72.6304868,42.074081,0
+                -72.63834,42.0718509,0
+                -72.6529312,42.066244,0
+                -72.657566,42.0628031,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Delivery Area Zone2</name>
+      <Placemark>
+        <name>Delivery Zone 2</name>
+        <styleUrl>#poly-FF5252-301-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -72.6790237,42.0815345,0
+                -72.6790237,42.0664988,0
+                -72.6764488,42.0630579,0
+                -72.6757622,42.059362,0
+                -72.6757622,42.0519695,0
+                -72.6721573,42.0433012,0
+                -72.6733589,42.0350143,0
+                -72.6168823,42.0310618,0
+                -72.6098442,42.0314443,0
+                -72.6110458,42.0390942,0
+                -72.6093292,42.0482729,0
+                -72.6081276,42.0522244,0
+                -72.6009178,42.0617835,0
+                -72.5859833,42.0796233,0
+                -72.585125,42.0816619,0
+                -72.5974846,42.0806426,0
+                -72.6040077,42.0789863,0
+                -72.6120758,42.0778396,0
+                -72.6139641,42.0782218,0
+                -72.6182556,42.0848469,0
+                -72.6258087,42.0889236,0
+                -72.6335335,42.0896879,0
+                -72.6429749,42.0871401,0
+                -72.6519012,42.0843373,0
+                -72.6625443,42.0798782,0
+                -72.6725006,42.0794959,0
+                -72.6790237,42.0815345,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
